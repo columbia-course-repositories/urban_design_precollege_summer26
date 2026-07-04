@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-06-19">
+<meta name="dcterms.date" content="2026-07-04">
 
 <title>Urban Planning and Design: Class 5 Assignment - Urban Form: Reading the Physical Structure of Cities</title>
 <style>
@@ -50,17 +50,60 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#assignment-5-urban-form" id="toc-assignment-5-urban-form" class="nav-link active" data-scroll-target="#assignment-5-urban-form">🗺️ Assignment 5 Urban Form</a></li>
+  <li><a href="#assignment-5-urban-form" id="toc-assignment-5-urban-form" class="nav-link active" data-scroll-target="#assignment-5-urban-form">🗺️ Assignment 5: Urban Form</a>
+  <ul class="collapse">
+  <li><a href="#reading-the-physical-structure-of-cities" id="toc-reading-the-physical-structure-of-cities" class="nav-link" data-scroll-target="#reading-the-physical-structure-of-cities">Reading the Physical Structure of Cities</a></li>
+  </ul></li>
   <li><a href="#assignment-overview" id="toc-assignment-overview" class="nav-link" data-scroll-target="#assignment-overview">📋 Assignment Overview</a></li>
   <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">🎯 Learning Objectives</a></li>
-  <li><a href="#required-reading" id="toc-required-reading" class="nav-link" data-scroll-target="#required-reading">📚 Required Reading</a></li>
-  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">🧰 Materials</a></li>
-  <li><a href="#exercise-1-urban-form-investigation-in-gis" id="toc-exercise-1-urban-form-investigation-in-gis" class="nav-link" data-scroll-target="#exercise-1-urban-form-investigation-in-gis">🗺️ Exercise 1: Urban Form Investigation in GIS</a></li>
-  <li><a href="#transition-exercise-reading-urban-form" id="toc-transition-exercise-reading-urban-form" class="nav-link" data-scroll-target="#transition-exercise-reading-urban-form">📍 Transition Exercise: Reading Urban Form</a></li>
-  <li><a href="#exercise-2-field-investigation" id="toc-exercise-2-field-investigation" class="nav-link" data-scroll-target="#exercise-2-field-investigation">📍 Exercise 2: Field Investigation</a></li>
-  <li><a href="#exercise-3-urban-form-analysis" id="toc-exercise-3-urban-form-analysis" class="nav-link" data-scroll-target="#exercise-3-urban-form-analysis">🏙️ Exercise 3: Urban Form Analysis</a></li>
-  <li><a href="#submission-requirements" id="toc-submission-requirements" class="nav-link" data-scroll-target="#submission-requirements">📤 Submission Requirements</a></li>
+  <li><a href="#homework-reading" id="toc-homework-reading" class="nav-link" data-scroll-target="#homework-reading">📚 Homework Reading</a>
+  <ul class="collapse">
+  <li><a href="#kevin-lynch" id="toc-kevin-lynch" class="nav-link" data-scroll-target="#kevin-lynch">Kevin Lynch</a></li>
+  </ul></li>
+  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">🧰 Materials</a>
+  <ul class="collapse">
+  <li><a href="#required" id="toc-required" class="nav-link" data-scroll-target="#required">Required</a></li>
+  <li><a href="#software-platforms" id="toc-software-platforms" class="nav-link" data-scroll-target="#software-platforms">Software / Platforms</a></li>
+  </ul></li>
+  <li><a href="#exercise-1-investigating-urban-form" id="toc-exercise-1-investigating-urban-form" class="nav-link" data-scroll-target="#exercise-1-investigating-urban-form">🗺️ Exercise 1: Investigating Urban Form</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#available-datasets" id="toc-available-datasets" class="nav-link" data-scroll-target="#available-datasets">Available Datasets</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#exercise-2-reading-urban-form" id="toc-exercise-2-reading-urban-form" class="nav-link" data-scroll-target="#exercise-2-reading-urban-form">📍 Exercise 2: Reading Urban Form</a>
+  <ul class="collapse">
+  <li><a href="#introduction-1" id="toc-introduction-1" class="nav-link" data-scroll-target="#introduction-1">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#identify-examples-of" id="toc-identify-examples-of" class="nav-link" data-scroll-target="#identify-examples-of">Identify Examples Of</a></li>
+  <li><a href="#consider" id="toc-consider" class="nav-link" data-scroll-target="#consider">Consider</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#exercise-3-guided-urban-form-exploration-morphocode" id="toc-exercise-3-guided-urban-form-exploration-morphocode" class="nav-link" data-scroll-target="#exercise-3-guided-urban-form-exploration-morphocode">🌐 Exercise 3: Guided Urban Form Exploration (Morphocode)</a>
+  <ul class="collapse">
+  <li><a href="#introduction-2" id="toc-introduction-2" class="nav-link" data-scroll-target="#introduction-2">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#guided-workflow" id="toc-guided-workflow" class="nav-link" data-scroll-target="#guided-workflow">Guided Workflow</a></li>
+  <li><a href="#consider-1" id="toc-consider-1" class="nav-link" data-scroll-target="#consider-1">Consider</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#exercise-4-building-a-curated-gis-study-area" id="toc-exercise-4-building-a-curated-gis-study-area" class="nav-link" data-scroll-target="#exercise-4-building-a-curated-gis-study-area">💻 Exercise 4: Building a Curated GIS Study Area</a>
+  <ul class="collapse">
+  <li><a href="#introduction-3" id="toc-introduction-3" class="nav-link" data-scroll-target="#introduction-3">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#guided-workflow-1" id="toc-guided-workflow-1" class="nav-link" data-scroll-target="#guided-workflow-1">Guided Workflow</a></li>
+  <li><a href="#step-1" id="toc-step-1" class="nav-link" data-scroll-target="#step-1">Step 1</a></li>
+  <li><a href="#step-2" id="toc-step-2" class="nav-link" data-scroll-target="#step-2">Step 2</a></li>
+  <li><a href="#step-3" id="toc-step-3" class="nav-link" data-scroll-target="#step-3">Step 3</a></li>
+  <li><a href="#step-4" id="toc-step-4" class="nav-link" data-scroll-target="#step-4">Step 4</a></li>
+  <li><a href="#step-5-optional---keep-in-mnd-for-final-project-design-in-week-3" id="toc-step-5-optional---keep-in-mnd-for-final-project-design-in-week-3" class="nav-link" data-scroll-target="#step-5-optional---keep-in-mnd-for-final-project-design-in-week-3">Step 5 (Optional - Keep in mnd for final project design in week 3)</a></li>
+  <li><a href="#consider-2" id="toc-consider-2" class="nav-link" data-scroll-target="#consider-2">Consider</a></li>
+  </ul></li>
+  <li><a href="#class-completion" id="toc-class-completion" class="nav-link" data-scroll-target="#class-completion">✅ Class Completion</a></li>
   <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">🔭 Looking Ahead</a></li>
+  </ul></li>
   </ul>
 </nav>
 </div>
@@ -80,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 19, 2026</p>
+      <p class="date">July 4, 2026</p>
     </div>
   </div>
   
@@ -92,10 +135,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="assignment-5-urban-form" class="level3">
-<h3 class="anchored" data-anchor-id="assignment-5-urban-form">🗺️ Assignment 5 Urban Form</h3>
-<section id="reading-the-physical-structure-of-cities" class="level4">
-<h4 class="anchored" data-anchor-id="reading-the-physical-structure-of-cities">Reading the Physical Structure of Cities</h4>
+<section id="assignment-5-urban-form" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-5-urban-form">🗺️ Assignment 5: Urban Form</h2>
+<section id="reading-the-physical-structure-of-cities" class="level3">
+<h3 class="anchored" data-anchor-id="reading-the-physical-structure-of-cities">Reading the Physical Structure of Cities</h3>
 <p><strong>Date:</strong> Monday, July 6, 2026<br>
 <strong>AM Session:</strong> 11:10 a.m.–1:00 p.m.<br>
 <strong>PM Session:</strong> 3:10–5:00 p.m.<br>
@@ -103,15 +146,15 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 </section>
 </section>
-<section id="assignment-overview" class="level3">
-<h3 class="anchored" data-anchor-id="assignment-overview">📋 Assignment Overview</h3>
-<p>In Class 4, we used historical maps and imagery to investigate how cities change over time. In this assignment, we shift our attention to a different question:</p>
+<section id="assignment-overview" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-overview">📋 Assignment Overview</h2>
+<p>In Class 4 we used historical maps and imagery to investigate how cities change through time. Today we shift our attention to a different question:</p>
 <blockquote class="blockquote">
-<p>What is the city made of?</p>
+<p><strong>What is the city made of?</strong></p>
 </blockquote>
-<p>Cities are composed of physical elements that shape movement, development, navigation, and everyday experience. Streets, blocks, parcels, buildings, infrastructure, and open spaces combine to create urban form—the physical structure of the city.</p>
-<p>In this assignment, you will use GIS and field observation to investigate urban form around your observation point and the Columbia University study area.</p>
-<p>GIS is one of several tools we will use to investigate urban form. The goal is not to learn advanced GIS techniques, but rather to better understand how the physical structure of cities influences how people experience, understand, and navigate urban environments.</p>
+<p>Cities are composed of physical systems that organize movement, development, navigation, and everyday life. Streets, parcels, buildings, infrastructure, transit, and open space combine to create <strong>urban form</strong>—the physical structure of the city.</p>
+<p>Today’s activities are structured as a series of guided exercises. Rather than producing a finished assignment, you will build a curated GIS study area centered on your observation point while learning how urban designers use spatial data to investigate cities.</p>
+<p>GIS is one of several tools we will use throughout the course. The goal is not to learn advanced GIS techniques, but rather to understand how spatial data can help us read and interpret the physical structure of urban environments.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -122,230 +165,257 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Key Question What physical structures help people understand, navigate, and experience a city?</p>
+<p><strong>Key Question</strong></p>
+<p>What physical structures help people understand, navigate, and experience a city?</p>
 </div>
 </div>
 <hr>
 </section>
-<section id="learning-objectives" class="level3">
-<h3 class="anchored" data-anchor-id="learning-objectives">🎯 Learning Objectives</h3>
-<p>By completing this assignment, students will be able to:</p>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">🎯 Learning Objectives</h2>
+<p>By completing today’s exercises, students will be able to:</p>
 <ul>
 <li>Identify major elements of urban form.</li>
-<li>Interpret urban form using maps, GIS, and field observation.</li>
+<li>Explore urban datasets using GIS.</li>
 <li>Apply concepts from Kevin Lynch’s <em>The Image of the City</em>.</li>
+<li>Create a curated GIS study area centered on an observation point.</li>
 <li>Connect mapped information to lived urban experience.</li>
-<li>Compare the city as represented in GIS with the city experienced on the ground.</li>
 </ul>
 <hr>
 </section>
-<section id="required-reading" class="level3">
-<h3 class="anchored" data-anchor-id="required-reading">📚 Required Reading</h3>
-<section id="kevin-lynch" class="level4">
-<h4 class="anchored" data-anchor-id="kevin-lynch">Kevin Lynch</h4>
+<section id="homework-reading" class="level2">
+<h2 class="anchored" data-anchor-id="homework-reading">📚 Homework Reading</h2>
+<section id="kevin-lynch" class="level3">
+<h3 class="anchored" data-anchor-id="kevin-lynch">Kevin Lynch</h3>
 <p><em>The Image of the City</em></p>
 <p>Read:</p>
 <ul>
-<li><p>Chapter 1: <em>The Image of the Environment</em> (pp.&nbsp;1–13)</p></li>
-<li><p>The Five Elements (pp.&nbsp;46–51)</p></li>
+<li>Chapter 1: <strong>The Image of the Environment</strong> (pp.&nbsp;1–13)</li>
+<li><strong>The Five Elements</strong> (pp.&nbsp;46–51)</li>
 </ul>
-<p>As you read, consider the following questions:</p>
+<p>As you read, consider:</p>
 <ul>
-<li><p>What makes a city easy or difficult to understand?</p></li>
-<li><p>Which of Lynch’s five elements appears most important in your observation area?</p></li>
-<li><p>How do streets, buildings, infrastructure, and open spaces contribute to the image of a city?</p></li>
-<li><p><a href="https://www.cooldavis.org/wp-content/uploads/2022/03/THE_IMAGE_OF_THE_CITY_Kevin_Lynch.pdf">The Image of the City PDF LINK</a></p></li>
+<li>What makes a city easy or difficult to understand?</li>
+<li>Which of Lynch’s five elements appears most important in your observation area?</li>
+<li>How do streets, buildings, infrastructure, and open spaces contribute to the image of a city?</li>
+</ul>
+<p><strong>Reading</strong></p>
+<ul>
+<li><a href="https://www.cooldavis.org/wp-content/uploads/2022/03/THE_IMAGE_OF_THE_CITY_Kevin_Lynch.pdf">Link</a></li>
 </ul>
 <hr>
 </section>
 </section>
-<section id="materials" class="level3">
-<h3 class="anchored" data-anchor-id="materials">🧰 Materials</h3>
-<section id="required" class="level4">
-<h4 class="anchored" data-anchor-id="required">Required</h4>
+<section id="materials" class="level2">
+<h2 class="anchored" data-anchor-id="materials">🧰 Materials</h2>
+<section id="required" class="level3">
+<h3 class="anchored" data-anchor-id="required">Required</h3>
 <ul>
 <li>Laptop computer</li>
-<li>Internet connection</li>
-<li>Observation Point from Assignment 3 &amp; 4</li>
-<li>Sketchbook and notes</li>
+<li>Observation Point from Classes 3 and 4</li>
+<li>Sketchbook</li>
+<li>Class notes</li>
 </ul>
 </section>
-<section id="software-platforms" class="level4">
-<h4 class="anchored" data-anchor-id="software-platforms">Software / Platforms</h4>
+<section id="software-platforms" class="level3">
+<h3 class="anchored" data-anchor-id="software-platforms">Software / Platforms</h3>
 <ul>
-<li><a href="https://www.qgis.org/">QGIS</a></li>
-<li><a href="https://plugins.qgis.org/plugins/quick_map_services/">QuickMapServices plugin</a></li>
+<li>QGIS</li>
+<li>QuickMapServices Plugin</li>
+<li><a href="https://explorer.morphocode.com/">Morphocode</a></li>
+<li><a href="https://columbia-urban-design-data.s3.us-east-1.amazonaws.com/vector-data/c5_city-vector-features.zip">NYC Data Package</a></li>
 </ul>
 <hr>
 </section>
 </section>
-<section id="exercise-1-urban-form-investigation-in-gis" class="level3">
-<h3 class="anchored" data-anchor-id="exercise-1-urban-form-investigation-in-gis">🗺️ Exercise 1: Urban Form Investigation in GIS</h3>
-<section id="introduction" class="level4">
-<h4 class="anchored" data-anchor-id="introduction">Introduction</h4>
-<p>Urban form can be studied through a variety of spatial datasets. Today we will use GIS to investigate the physical structure of the city surrounding our observation areas.</p>
-<p>We will utiize vector datasets readily available from NYC Planning Resources:</p>
+<section id="exercise-1-investigating-urban-form" class="level1">
+<h1>🗺️ Exercise 1: Investigating Urban Form</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Urban form can be studied through a variety of spatial datasets. During today’s workshop we will examine several NYC Planning datasets that describe the physical structure of Manhattan.</p>
+<section id="available-datasets" class="level3">
+<h3 class="anchored" data-anchor-id="available-datasets">Available Datasets</h3>
 <ul>
-<li><a href="https://www.nyc.gov/content/planning/pages/resources#datasets">Link to NYC Planning Datasets</a></li>
-</ul>
-</section>
-<section id="available-datasets" class="level4">
-<h4 class="anchored" data-anchor-id="available-datasets">Available Datasets</h4>
-<ul>
-<li>Street Centerline</li>
-<li>LION</li>
-<li>Tax Lots / Parcels</li>
-<li>MapPLUTO</li>
-<li>Zoning</li>
+<li>LION Street Centerlines</li>
+<li>Subway Lines &amp; Stops</li>
+<li>MapPLUTO - Parcel Base</li>
 <li>Building Footprints</li>
-<li>Open Space and Parks</li>
+<li>NYC Places</li>
+<li>Landmark Sites</li>
+<li>NYC Borough Boundaries</li>
+<li>NYC Zoning Overlay Zones</li>
+<li>NYC Street Centerlines</li>
 </ul>
 </section>
-<section id="tasks" class="level4">
-<h4 class="anchored" data-anchor-id="tasks">Tasks</h4>
-<p>Using GIS, revisit your observation point and investigate the surrounding area.</p>
-</section>
-<section id="identify-and-examine" class="level4">
-<h4 class="anchored" data-anchor-id="identify-and-examine">Identify and Examine</h4>
+<section id="discussion" class="level3">
+<h3 class="anchored" data-anchor-id="discussion">Discussion</h3>
+<p>Consider:</p>
 <ul>
-<li>Streets</li>
-<li>Blocks</li>
-<li>Parcels</li>
-<li>Buildings</li>
-<li>Infrastructure</li>
-<li>Open Space</li>
+<li>What does each dataset represent?</li>
+<li>What aspect of the city becomes visible?</li>
+<li>Which datasets describe movement?</li>
+<li>Which describe buildings?</li>
+<li>Which describe land ownership or development?</li>
 </ul>
+<hr>
 </section>
-<section id="consider" class="level4">
-<h4 class="anchored" data-anchor-id="consider">Consider</h4>
+</section>
+</section>
+<section id="exercise-2-reading-urban-form" class="level1">
+<h1>📍 Exercise 2: Reading Urban Form</h1>
+<section id="introduction-1" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-1">Introduction</h2>
+<p>Kevin Lynch argued that people organize cities using recurring physical elements. Before building our own GIS study area, we will identify these elements using maps and class discussion.</p>
+<section id="identify-examples-of" class="level3">
+<h3 class="anchored" data-anchor-id="identify-examples-of">Identify Examples Of</h3>
 <ul>
-<li>How is movement organized?</li>
-<li>What appears to structure the area?</li>
-<li>Are there major boundaries or edges?</li>
-<li>Are there identifiable centers or gathering places?</li>
-<li>Are there recognizable landmarks?</li>
+<li>Paths</li>
+<li>Edges</li>
+<li>Districts</li>
+<li>Nodes</li>
+<li>Landmarks</li>
 </ul>
+<p>near your observation point.</p>
 </section>
-</section>
-<section id="transition-exercise-reading-urban-form" class="level3">
-<h3 class="anchored" data-anchor-id="transition-exercise-reading-urban-form">📍 Transition Exercise: Reading Urban Form</h3>
-<section id="introduction-1" class="level4">
-<h4 class="anchored" data-anchor-id="introduction-1">Introduction</h4>
-<p>Cities can be understood from both the street and the map. Kevin Lynch argued that people often use recurring elements to understand and navigate urban environments. In this exercise, you will begin identifying these elements using GIS and class discussion.</p>
-</section>
-<section id="tasks-1" class="level4">
-<h4 class="anchored" data-anchor-id="tasks-1">Tasks</h4>
-<p>Using GIS and class discussion, identify examples of:</p>
-<ul>
-<li>Path</li>
-<li>Edge</li>
-<li>District</li>
-<li>Node</li>
-<li>Landmark</li>
-</ul>
-<p>near your observation point or within the Columbia study area.</p>
-</section>
-<section id="consider-1" class="level4">
-<h4 class="anchored" data-anchor-id="consider-1">Consider</h4>
+<section id="consider" class="level3">
+<h3 class="anchored" data-anchor-id="consider">Consider</h3>
 <ul>
 <li>Which elements are easiest to identify?</li>
 <li>Which are most difficult?</li>
 <li>What becomes visible on a map that is difficult to see from the street?</li>
-<li>What becomes visible on the street that is difficult to see on a map?</li>
+<li>What becomes visible in the field that is difficult to see on a map?</li>
 </ul>
+<hr>
 </section>
 </section>
-<section id="exercise-2-field-investigation" class="level3">
-<h3 class="anchored" data-anchor-id="exercise-2-field-investigation">📍 Exercise 2: Field Investigation</h3>
-<section id="introduction-2" class="level4">
-<h4 class="anchored" data-anchor-id="introduction-2">Introduction</h4>
-<p>Maps and GIS provide one way of understanding cities. Field observation provides another.</p>
-<p>In this exercise, you will compare mapped urban form with experienced urban form by revisiting your observation area and documenting how the physical structure of the city influences movement, navigation, and everyday experience.</p>
 </section>
-<section id="tasks-2" class="level4">
-<h4 class="anchored" data-anchor-id="tasks-2">Tasks</h4>
-<p>Visit your observation point or nearby study area.</p>
-<p>Document:</p>
+<section id="exercise-3-guided-urban-form-exploration-morphocode" class="level1">
+<h1>🌐 Exercise 3: Guided Urban Form Exploration (Morphocode)</h1>
+<section id="introduction-2" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-2">Introduction</h2>
+<p>Morphocode provides an accessible way to explore urban datasets without requiring advanced GIS workflows.</p>
+<p>Access to Morphocode - https://explorer.morphocode.com/ - <a href="https://explorer.morphocode.com/">Link to Site</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="c5_assignment_files/img/morphocode.png" class="img-fluid figure-img"></p>
+<figcaption>Morphocode</figcaption>
+</figure>
+</div>
+<p>During this guided demonstration, we will investigate the area surrounding your observation point and compare multiple urban datasets.</p>
+<section id="guided-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="guided-workflow">Guided Workflow</h3>
+<p>Using Morphocode:</p>
 <ul>
-<li>Streets and circulation patterns</li>
-<li>Building types and scale</li>
-<li>Open spaces</li>
-<li>Infrastructure</li>
-<li>Areas of activity</li>
-<li>Areas of transition</li>
-<li>Notable landmarks</li>
+<li>Locate your general observation point.</li>
+<li>Create a <strong>0.5-mile buffer</strong> around the site.</li>
+<li>Explore available urban datasets.</li>
+<li>Turn layers on and off.</li>
+<li>Compare how different datasets describe the same location.</li>
 </ul>
-<p>Use:</p>
+</section>
+<section id="consider-1" class="level3">
+<h3 class="anchored" data-anchor-id="consider-1">Consider</h3>
 <ul>
-<li>Notes</li>
-<li>Sketches</li>
-<li>Photographs</li>
+<li>Which datasets are easiest to interpret?</li>
+<li>Which reveal information that cannot easily be observed in the field?</li>
+<li>Which datasets seem most useful for understanding urban form?</li>
 </ul>
-<p>to record your observations.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Important</strong></p>
+<p>Morphocode provides an excellent environment for exploring urban data, but it does not allow us to export curated datasets. In the next exercise we will perform a similar workflow inside QGIS and create our own GIS study area.</p>
+</div>
+</div>
+<hr>
 </section>
-<section id="consider-2" class="level4">
-<h4 class="anchored" data-anchor-id="consider-2">Consider</h4>
+</section>
+</section>
+<section id="exercise-4-building-a-curated-gis-study-area" class="level1">
+<h1>💻 Exercise 4: Building a Curated GIS Study Area</h1>
+<section id="introduction-3" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-3">Introduction</h2>
+<p>Professional GIS workflows often begin by reducing large citywide datasets into a focused project area.</p>
+<p>Rather than working with all of Manhattan, we will build a curated GIS dataset centered on your own observation point.</p>
+<section id="guided-workflow-1" class="level3">
+<h3 class="anchored" data-anchor-id="guided-workflow-1">Guided Workflow</h3>
+<p>Working together in QGIS:</p>
+</section>
+<section id="step-1" class="level3">
+<h3 class="anchored" data-anchor-id="step-1">Step 1</h3>
+<p>-Import your observation point. - Download <a href="https://columbia-urban-design-data.s3.us-east-1.amazonaws.com/vector-data/c5_city-vector-features.zip">NYC data package</a></p>
+</section>
+<section id="step-2" class="level3">
+<h3 class="anchored" data-anchor-id="step-2">Step 2</h3>
+<p>Reproject the point to:</p>
+<p><strong>ESRI:103120</strong></p>
+</section>
+<section id="step-3" class="level3">
+<h3 class="anchored" data-anchor-id="step-3">Step 3</h3>
+<p>Create a <strong>0.5-mile buffer</strong> around your observation point.</p>
+</section>
+<section id="step-4" class="level3">
+<h3 class="anchored" data-anchor-id="step-4">Step 4</h3>
+<p>Clip each dataset using the buffer (time permitting; we will likely be able to perform a subset of the total data layers available)</p>
+<p>Datasets include:</p>
 <ul>
-<li>Does the city feel the same as it appears in GIS?</li>
-<li>What features seem most important when walking through the area?</li>
-<li>What physical elements help people understand where they are?</li>
-<li>What physical elements influence movement?</li>
+<li>LION Street Centerlines</li>
+<li>Subway Lines &amp; Stops</li>
+<li>MapPLUTO - Parcel Base</li>
+<li>Building Footprints</li>
+<li>NYC Places</li>
+<li>Landmark Sites</li>
+<li>NYC Borough Boundaries</li>
+<li>NYC Zoning Overlay Zones</li>
+<li>NYC Street Centerlines</li>
 </ul>
 </section>
+<section id="step-5-optional---keep-in-mnd-for-final-project-design-in-week-3" class="level3">
+<h3 class="anchored" data-anchor-id="step-5-optional---keep-in-mnd-for-final-project-design-in-week-3">Step 5 (Optional - Keep in mnd for final project design in week 3)</h3>
+<p>Export each clipped layer as an individual <strong>Shapefile</strong>.</p>
+<p>By the end of the workshop you will have created a curated GIS study area containing only the spatial information surrounding your observation point.</p>
 </section>
-<section id="exercise-3-urban-form-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="exercise-3-urban-form-analysis">🏙️ Exercise 3: Urban Form Analysis</h3>
-<section id="introduction-3" class="level4">
-<h4 class="anchored" data-anchor-id="introduction-3">Introduction</h4>
-<p>The goal of this assignment is not simply to create a map. The goal is to use maps, GIS, and field observation together to understand the physical structure of a city.</p>
-<p>In this final section, you will synthesize your GIS investigation and field observations into a map and written reflection.</p>
-</section>
-<section id="create-a-map" class="level4">
-<h4 class="anchored" data-anchor-id="create-a-map">Create a Map</h4>
-<p>Using QGIS, create a PDF map showing:</p>
+<section id="consider-2" class="level3">
+<h3 class="anchored" data-anchor-id="consider-2">Consider</h3>
 <ul>
-<li>Observation Point</li>
-<li>Streets</li>
-<li>Parcels</li>
-<li>Buildings</li>
-<li>Additional urban form elements of your choice</li>
+<li>Why is clipping useful?</li>
+<li>Why work with a focused study area rather than the entire city?</li>
+<li>Which datasets seem most useful for understanding urban form?</li>
+<li>Which datasets might become useful during future design investigations?</li>
 </ul>
-<p>Your map should clearly communicate the physical structure of the study area.</p>
-</section>
-<section id="reflection" class="level4">
-<h4 class="anchored" data-anchor-id="reflection">✍️ Reflection</h4>
-<p>Write a short response (approximately 250–400 words) addressing the following questions:</p>
-<ol type="1">
-<li><p>Which elements of urban form seem most important in your study area?</p></li>
-<li><p>Which of Lynch’s five elements (path, edge, district, node, or landmark) is most visible?</p></li>
-<li><p>How did GIS help you understand the physical structure of this place?</p></li>
-<li><p>What aspects of urban form were easier to understand in the field than on the map?</p></li>
-</ol>
+<hr>
 </section>
 </section>
-<section id="submission-requirements" class="level3">
-<h3 class="anchored" data-anchor-id="submission-requirements">📤 Submission Requirements</h3>
-<p>Submit the following:</p>
-<section id="urban-form-map-pdf" class="level4">
-<h4 class="anchored" data-anchor-id="urban-form-map-pdf">1. Urban Form Map (PDF)</h4>
-<p>Exported from QGIS.</p>
+<section id="class-completion" class="level2">
+<h2 class="anchored" data-anchor-id="class-completion">✅ Class Completion</h2>
+<p>Today’s activities are guided workshop exercises.</p>
+<p>There is <strong>no assignment submission</strong>.</p>
+<p>Before leaving class you should have:</p>
+<ul>
+<li>Imported your observation point.</li>
+<li>Reprojected the point to ESRI:103120.</li>
+<li>Created a 0.5-mile buffer.</li>
+<li>Clipped each required dataset.</li>
+<li>Exported each curated layer as a Shapefile.</li>
+<li>Saved your QGIS project for future classes.</li>
+</ul>
+<hr>
 </section>
-<section id="reflection-1" class="level4">
-<h4 class="anchored" data-anchor-id="reflection-1">2. Reflection</h4>
-<p>250–400 words.</p>
-</section>
-<section id="field-documentation" class="level4">
-<h4 class="anchored" data-anchor-id="field-documentation">3. Field Documentation</h4>
-<p>A selection of photographs, sketches, notes, or a combination of these materials.</p>
-</section>
-</section>
-<section id="looking-ahead" class="level3">
-<h3 class="anchored" data-anchor-id="looking-ahead">🔭 Looking Ahead</h3>
-<p>Tomorrow we will examine how cities are represented through maps, aerial photographs, and physical models.</p>
-<p>As you complete this assignment, consider the following question:</p>
+<section id="looking-ahead" class="level2">
+<h2 class="anchored" data-anchor-id="looking-ahead">🔭 Looking Ahead</h2>
+<p>Tomorrow we will examine how cities are represented through maps, aerial imagery, and physical models during our visit to the Museum of the City of New York.</p>
+<p>As you complete today’s exercises, consider the following question:</p>
 <blockquote class="blockquote">
-<p>How do different forms of representation help us understand the physical structure of a city?</p>
+<p><strong>How do different forms of representation help us understand the physical structure of a city?</strong></p>
 </blockquote>
+</section>
 </section>
 
 </main>
